@@ -183,14 +183,14 @@ class SingleTender extends Component {
             </div>
           </form>
         </div>
-       <div>
-         {listSingle.map(items => (
+        <div>
+          {listSingle.map(items => (
             <div key={items.id}>
               <button className="singlebtn" onClick={this.generate(items)}>
                 Generate PDF
               </button>
             </div>
-          ))} 
+          ))}
         </div>
       </div>
     )
